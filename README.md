@@ -1,0 +1,1 @@
+[Valery995](https://Valery995.github.io/rsschool-cv/cv)
