@@ -13,7 +13,11 @@
 + My solution for [Codewars](https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript) problem:
 ``const multiply = (a, b) =>  a * b``
 
-+
++ [RS school CV-task](https://github.com/Valery995/rsschool-cv.git)
+
++ JS/FE Pre-School 2023Q2 is my first course. 
+
++ My english is probably on A1 stage. 
 
 
 
