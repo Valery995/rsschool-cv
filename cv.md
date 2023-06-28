@@ -16,16 +16,16 @@ ___________
 ``const multiply = (a, b) =>  a * b``
 _______
 + Education received: 
-  1. 2013-2018
+  - 2013-2018
      * University: Polotsk State University (2013-2018)
 
        Specialisation: Heat and gas supply, ventilation and air protection
 
        Qualification given: Master / Civil Engineer
-  2. 2023.06.26 - ...
+  - 2023.06.26 - ...
         
-        * [The Rolling Scopes  «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/)    
-        * The Project: [RS school CV-task](https://github.com/Valery995/rsschool-cv/blob/gh-pages/cv.md)
+      * [The Rolling Scopes  «JavaScript/Front-end. Stage 0»](https://rs.school/js-stage0/)    
+      * The Project: [RS school CV-task](https://github.com/Valery995/rsschool-cv/blob/gh-pages/cv.md)
 ________
 
 + The Rolling Scopes  «JavaScript/Front-end. Stage 0» is my first course. 
