@@ -1,1 +1,1 @@
-## https://github.com/Valery995/rsschool-cv/blob/gh-pages/cv.md
+[https://valery995.github.io/rsschool-cv/cv](https://valery995.github.io/rsschool-cv/cv)
