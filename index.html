@@ -6,12 +6,12 @@
     <!--добавить фавиконку-->
     <title>Task - CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./favicon-32x32.png">
 </head>
 
 <body>
     <nav>
         <ul>
-            <!--Добавить якоря-ссылки-->
             <li><a href = "#contacts">Contacts</a></li>
             <li><a href = "#about">About me</a></li>
             <li><a href = "#skills">Skills</a></li>
@@ -23,16 +23,11 @@
     </nav>
 
     <header>
-
-
-        <div class = "header">
-            <h1>Yermalovich Valery</h1>
-                <p>RS School Frontend Student</p>
-            <!--добавить источник фото-->
-                <img src="access/hamster.jpg" title = "Hi!" 
-                alt = "It's a hamster" height="200px" width="200px">
-        </div>
-
+        <img src="access/hamster.jpg" title = "Hi!" alt = "It's me when i see JS code" height="200px" width="200px" class ="my-photo">
+        <h1>Yermalovich Valery</h1>
+        <p><b>Hi there!</b> I'm RS School Frontend student and<br>
+              on this page you can find a brief information about me and my poor skills.</p>
+        
     </header>
 
     <main>
@@ -40,7 +35,7 @@
 
         <div>
             <h2 id = "contacts">Contacts:</h2>
-                <ul>
+                <ul class="links">
                     <li>valeryerm1@gmail.com</li>
                     <li><a href = "https://t.me/ValeryErm"  target="_blank">Telegram</a></li>
                     <li>Discord channel: @Valery995</li>
@@ -50,7 +45,7 @@
 
         <div>
             <h2 id = "about">About me:</h2>
-                <p>I completed my studies in university (PSU) and have been working
+                <p>I completed my studies in university and have been working
                      in the energy sector for 3 years. Now i want to change the field
                       of activity and develop in IT. My desire to learn will help me
                        in this.</p>
@@ -59,52 +54,46 @@
         <div>
             <h2 id = "skills">Skills:</h2>
             <p>I am a beginner in programming, so I am only familiar with the initial
-                 basic knowledge of HTML and CSS</p>
+                 basic knowledge of HTML and CSS.</p>
         </div>
 
         <div>
             <h2 id = "code">Code example:</h2>
-
-                <p>Solution for <a href = "https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript"  target="_blank">Codewars problem</a>:</p>
-                
-                <pre>``const multiply = (a, b) =>  a * b``</pre>
+            <p>The solution of a <a href = "https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript"  target="_blank">Codewars problem</a>:</p>
+            <pre>``const multiply = (a, b) =>  a * b``</pre>
         </div>
 
         <div>
             <h2 id = "education">Education:</h2>
+                <section>
+                    <h4>2013-2018</h4>
+                    <p><em>University:</em> Polotsk State University<br>
+                        <em>Specialisation:</em> Heat and gas supply, ventilation and air protection<br>
+                        <em>Qualification given:</em> Master / Civil Engineer</p>
+                </section>
 
-                <h3>2013-2018</h3>
-
-                <p>University: Polotsk State University<br>
-                   Specialisation: Heat and gas supply, ventilation and air protection<br>
-                   Qualification given: Master / Civil Engineer</p>
-
-                <h3>2023.06.26 - ...</h3>
-
-                <p>The Rolling Scopes  «JavaScript/Front-end»</p>
+                <section>
+                    <h4>2023.06.26 - ...</h4>
+                    <p>The Rolling Scopes  «JavaScript/Front-end»</p>
+                </section>
         </div>
 
         <div>
             <h2 id = "project">My projects:</h2>
-
-            <!-- Добавить ссылку на резюме-->
-
-            <p><a href = "" target="_blank">CV</a></p>
-        
+            <!-- написать, что это мой первый проект-->
+            <p>Actually, this CV is my first task in programming.</p>
         </div>
 
         <div>
             <h2 id ="english">English:</h2>
-
             <p>My English is at A1 level, but there is a desire to master the level necessary 
-                for free communication and I am making efforts for this</p>
-
+                for free communication and I am making efforts for this.</p>
         </div>
 
     </main>
 
     <footer>
-        <!-- Добавить дату, картинку-ссылку -->
+       
     </footer>
 </body>   
 </html>

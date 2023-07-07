@@ -5,13 +5,13 @@ html {
 
 body {
     box-sizing: border-box;
-    padding: 30px;
+    padding: 50px;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 35%;
-    margin: auto;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 
 nav ul {
     border-bottom: 2px solid;
@@ -33,18 +33,32 @@ nav a {
     transition: 1s;
 }
 
-main a {
-    border-radius: 5%;
-    background-color: gainsboro;
-}
-
 
 
 nav a:hover {
     border-radius: 5%;
     background-color: gainsboro;
-    
 }
 
+main a {
+    border-radius: 5%;
+    background-color: gainsboro;
+}
 
+.my-photo {
+    float: right;
+    padding: 10px 20px 0 50px;
+}
+
+li {
+    list-style-type: none; 
+   }
+
+.links, section  {
+    border-left: 5px solid gainsboro;
+}
+
+section {
+    padding-left: 20px;
+}
 
