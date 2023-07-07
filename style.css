@@ -1,0 +1,50 @@
+html {
+    background: gainsboro;
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 35%;
+    margin: auto;
+}
+
+
+nav ul {
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px; 
+}
+
+a {
+    color: inherit;
+}
+
+nav a {
+    text-decoration: none;
+    transition: 1s;
+}
+
+main a {
+    border-radius: 5%;
+    background-color: gainsboro;
+}
+
+
+
+nav a:hover {
+    border-radius: 5%;
+    background-color: gainsboro;
+    
+}
+
+
+

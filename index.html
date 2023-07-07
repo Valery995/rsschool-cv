@@ -9,41 +9,47 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <!--Добавить якоря-ссылки-->
-                <li>Contacts</li>
-                <li>About me</li>
-                <li>Skills</li>
-                <li>Code example</li>
-                <li>Education</li>
-                <li>Projects</li>
-                <li>English</li>
-            </ul> 
-        </nav>
-    </header>
+    <nav>
+        <ul>
+            <!--Добавить якоря-ссылки-->
+            <li><a href = "#contacts">Contacts</a></li>
+            <li><a href = "#about">About me</a></li>
+            <li><a href = "#skills">Skills</a></li>
+            <li><a href = "#code">Code example</a></li>
+            <li><a href = "#education">Education</a></li>
+            <li><a href = "#project">Projects</a></li>
+            <li><a href = "#english">English</a></li>
+        </ul> 
+    </nav>
 
-    <main>
-        <div>
+    <header>
+
+
+        <div class = "header">
             <h1>Yermalovich Valery</h1>
                 <p>RS School Frontend Student</p>
             <!--добавить источник фото-->
-                <img href="" alt = "My photo">
+                <img src="access/hamster.jpg" title = "Hi!" 
+                alt = "It's a hamster" height="200px" width="200px">
         </div>
 
+    </header>
+
+    <main>
+        
+
         <div>
-            <h2>Contacts:</h2>
+            <h2 id = "contacts">Contacts:</h2>
                 <ul>
                     <li>valeryerm1@gmail.com</li>
-                    <li><a href = "https://t.me/ValeryErm">Telegram</a></li>
+                    <li><a href = "https://t.me/ValeryErm"  target="_blank">Telegram</a></li>
                     <li>Discord channel: @Valery995</li>
-                    <li><a href = "https://github.com/Valery995">GitHub</a></li>
+                    <li><a href = "https://github.com/Valery995"  target="_blank">GitHub</a></li>
                 </ul>
         </div>
 
         <div>
-            <h2>About me:</h2>
+            <h2 id = "about">About me:</h2>
                 <p>I completed my studies in university (PSU) and have been working
                      in the energy sector for 3 years. Now i want to change the field
                       of activity and develop in IT. My desire to learn will help me
@@ -51,21 +57,21 @@
         </div>
 
         <div>
-            <h2>Skills:</h2>
+            <h2 id = "skills">Skills:</h2>
             <p>I am a beginner in programming, so I am only familiar with the initial
                  basic knowledge of HTML and CSS</p>
         </div>
 
         <div>
-            <h2>Code example:</h2>
+            <h2 id = "code">Code example:</h2>
 
-                <p>Solution for <a href = "https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript">Codewars problem</a>:</p>
+                <p>Solution for <a href = "https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript"  target="_blank">Codewars problem</a>:</p>
                 
                 <pre>``const multiply = (a, b) =>  a * b``</pre>
         </div>
 
         <div>
-            <h2>Education:</h2>
+            <h2 id = "education">Education:</h2>
 
                 <h3>2013-2018</h3>
 
@@ -79,16 +85,16 @@
         </div>
 
         <div>
-            <h2>Project:</h2>
+            <h2 id = "project">My projects:</h2>
 
             <!-- Добавить ссылку на резюме-->
 
-            <p><a href = "">CV</a></p>
+            <p><a href = "" target="_blank">CV</a></p>
         
         </div>
 
         <div>
-            <h2>English:</h2>
+            <h2 id ="english">English:</h2>
 
             <p>My English is at A1 level, but there is a desire to master the level necessary 
                 for free communication and I am making efforts for this</p>
