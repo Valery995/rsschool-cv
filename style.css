@@ -16,12 +16,15 @@ body {
 nav ul {
     border-bottom: 2px solid;
     padding-bottom: 5px;
-    
 }
 
 nav ul li {
     display: inline;
     margin: 5px; 
+}
+
+.links {
+    padding-left: 25px;
 }
 
 a {
@@ -32,8 +35,6 @@ nav a {
     text-decoration: none;
     transition: 1s;
 }
-
-
 
 nav a:hover {
     border-radius: 5%;
@@ -46,19 +47,22 @@ main a {
 }
 
 .my-photo {
-    float: right;
+    float: right; 
     padding: 10px 20px 0 50px;
+    border-radius: 50%;
 }
 
 li {
-    list-style-type: none; 
+    list-style-type: none;
    }
 
-.links, section  {
+.links, section {
     border-left: 5px solid gainsboro;
 }
 
 section {
     padding-left: 20px;
 }
+
+
 
