@@ -1,4 +1,5 @@
 html {
+https://github.com/Valery995/rsschool-cv/pull/6/conflict?name=README.md&ancestor_oid=a7ac464e6828d55430d4f5e7be3a5f00ae8374ab&base_oid=52ff6b305612092041bfaf4c0a0897379abf13c4&head_oid=c7f5a06708eaed370de0167377aadfeed294e624<<<<<<< library
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -748,4 +749,90 @@ main {
 .card__buttonContainer button:hover, .card__submit:hover{
     background-color: #BB945F;
     border: none;
+=======
+    background: gainsboro;
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 20px 50px 10px 50px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+nav ul, .main-end  {
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px; 
+}
+
+.links {
+    padding-left: 25px;
+}
+
+nav a {
+    color: inherit;
+}
+
+nav a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    border-radius: 5%;
+    background-color: gainsboro;
+}
+
+main a {
+    border-radius: 5%;
+    background-color: gainsboro;
+}
+
+.my-photo {
+    display: block;
+    float: right; 
+    padding: 20px 20px 0 50px;
+    border-radius: 50%;
+}
+
+li {
+    list-style-type: none;
+   }
+
+.links, section {
+    border-left: 5px solid gainsboro;
+}
+
+section {
+    padding-left: 20px;
+}
+
+
+.footer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+footer a {
+    margin: 10px 20px 0 20px;
+}
+
+.time {
+    font-size:small;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
 }
