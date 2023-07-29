@@ -69,6 +69,10 @@ a {
     margin-right: 40px;
 }
 
+.menu__list-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .header__icon {
     border: none;
@@ -266,7 +270,6 @@ main {
 
 .favorites__seasons-form {
     display: flex;
-    width: 25%;
     gap: 20px;
     align-items: baseline;
 }
@@ -683,6 +686,7 @@ main {
     line-height: normal;
     letter-spacing: 1px;
     cursor: pointer; 
+    transition: 0.7s;
 }
 
 .card__get {
@@ -738,4 +742,10 @@ main {
     border-radius: 2px;
     border: 1px solid #0C0C0E;
     cursor: pointer;
+    transition: 0.7s;
+}
+
+.card__buttonContainer button:hover, .card__submit:hover{
+    background-color: #BB945F;
+    border: none;
 }
