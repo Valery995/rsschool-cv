@@ -75,6 +75,22 @@ a {
     margin-right: 40px;
 }
 
+.menu__list-link:after {
+    display: block;
+	position: relative;
+    bottom: 10px;
+	left: 0;
+	width: 0;
+	height: 2px; 
+	background-color: #fff; 
+	content: "";
+	transition:  0.3s ease-out;
+}
+
+.menu__list-link:hover:after,
+.menu__list-link:focus:after {
+	width: 100%; 
+}
 
 .header__icon {
     border: none;
@@ -694,7 +710,10 @@ main {
     line-height: normal;
     letter-spacing: 1px;
     cursor: pointer; 
+    transition: 0.7s;
 }
+
+
 
 .card__get {
     text-align: right;
@@ -749,6 +768,11 @@ main {
     border-radius: 2px;
     border: 1px solid #0C0C0E;
     cursor: pointer;
+    transition: 0.7s;
 }
 
+.card__buttonContainer button:hover, .card__submit:hover {
+    background-color: #BB945F;
+    border: none;
+}
 
