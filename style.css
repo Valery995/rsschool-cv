@@ -523,3 +523,232 @@ main {
     text-transform: capitalize;
 }
 
+.contacts__container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 40px;
+    background-color: #FFF;
+}
+
+.contacts__info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.contacts__info-header {
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.contacts__info-call {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 20px;
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+
+.contacts__info-mail {
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.contacts__info-mail a {
+    color: #000;
+    font-family:'Inter',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.card__container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 40px;
+    background-color: #FFF;
+}
+
+.card__inner-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39px;
+}
+
+.card__findCard {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 600px;
+}
+
+.card__findCard-header {
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+.card__findCard-form {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-family: 'Forum';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+    background-color: #BB945F;
+}
+
+.form__input {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 30px;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #BB945F;
+    height: 386px;
+    width: 600px;
+
+    padding: 20px 20px 30px;
+}
+
+
+
+.form__input p{
+     margin-bottom: 20px;
+}
+
+.form__input-input {
+    width: 520px;
+    height: 66px; 
+    border-radius: 10px;
+    border: none;
+    color: #8E8E8E;
+    font-family: 'Forum';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.form__input-input + .form__input-input {
+    margin-top: 25px;
+}
+
+.card__submit {
+    margin-top: 20px;
+    flex-shrink: 0;
+    text-align: center;
+    align-self: center;
+    width: 242px;
+    height: 44px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    background-color: #fff;
+    color: #0C0C0E;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer; 
+}
+
+.card__get {
+    text-align: right;
+    width: 456px;
+    gap: 35px;
+}
+
+.card__get-reader {
+    color: #000;
+    text-align: right;
+    font-family: 'Forum';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.card__get-Text {
+    margin-top: 35px;
+    color: #000;
+    text-align: right;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+    letter-spacing: 0.4px;
+}
+
+.card__buttonContainer {
+    margin-top: 35px;
+}
+
+.card__get-ButtonSign {
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+.card__buttonContainer button {
+    color: #0C0C0E;
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: 75px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    cursor: pointer;
+}
+
+
